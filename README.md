@@ -36,8 +36,6 @@ In this case, we try two approaches:
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * **Model 1 (Logistic Regression with original data)**:
 
 <img src="Images/model_1.png" height=40% width=40%>
