@@ -38,7 +38,7 @@ In this case, we try two approaches:
 
 * **Model 1 (Logistic Regression with original data)**:
 
-<img src="Images/model_1.png" height=40% width=40%>
+<img src="Images/model_1.png" height=60% width=60%>
 
 Based on the classification report, the logistic regression model appears to be performing very well for the 0 (healthy loan) label, with a precision of 1.00 and a recall of 0.99. This means that the model is correctly identifying almost all of the healthy loans, and very few healthy loans are being incorrectly classified as high-risk loans.
 
@@ -48,7 +48,7 @@ Overall, the model has an accuracy of 0.99 and a weighted average F1-score of 0.
 
 * **Model 2 (Logistic Regression with resampled data)**:
 
-<img src="Images/model_2.png" height=40% width=40%>  
+<img src="Images/model_2.png" height=60% width=60%>  
   
 This model has a higher recall for the 1 (high-risk loan) label, with a value of 0.99 instead of 0.91, indicating that almost all of the high-risk loans are being correctly identified by the model. However, this comes at the expense of a slightly lower precision value of 0.84, indicating that there is a higher rate of false positives for high-risk loans, compared to the previous model.
 
